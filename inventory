@@ -1,0 +1,13 @@
+[all] 
+k8ms	ansible_host=192.168.137.201
+k8mw1	ansible_host=192.168.137.202
+k8mw2	ansible_host=192.168.137.203
+
+[all:vars]
+ansible_ssh_user=root
+ansible_ssh_pass=
+
+## Please check variable  
+docker_package_version=docker-ce-18.06.3.ce
+kubernetes_package_version=1.17.0
+install_package=true
