@@ -29,7 +29,7 @@ $ chown $(id -u):$(id -g) $HOME/.kube/config
 
 Installing a pod network add-on
 
-$ kubectl apply -f https://docs.projectcalico.org/v3.8/manifests/calico.yaml 
+$ kubectl apply -f https://docs.projectcalico.org/manifests/calico.yaml 
 
 Node check
 $ kubectl get pod -n kube-system 
