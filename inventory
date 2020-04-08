@@ -8,6 +8,6 @@ ansible_ssh_user=root
 ansible_ssh_pass=
 
 ## Please check variable  
-docker_package_version=docker-ce-18.06.3.ce
-kubernetes_package_version=1.17.0
+docker_package_version=docker-ce
+kubernetes_package_version=1.18.0
 install_package=true
